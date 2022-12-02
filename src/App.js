@@ -39,10 +39,15 @@ const App = () => {
 			<div className="app" style={maxHeight}>
 				<div className="header" style={headerHeight}>
 					<div className="logo-text">
-						<h1>App Title</h1>
+						<h3>Curtis Hill</h3>
 					</div>
-					<button className="profile-icon-btn" id={0} onClick={openTab}>
-						<h2>P</h2>
+					<ul className="nav">
+						<li>About</li>
+						<li>Education</li>
+						<li>Contact</li>
+					</ul>
+					<button className="download-cv-btn">
+						<h3>Download CV</h3>
 					</button>
 				</div>
 				<div className="main" style={mainHeight}>

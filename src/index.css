@@ -45,6 +45,10 @@ button:hover {
    cursor: pointer;
 }
 
+ul {
+   list-style-type: none;
+}
+
 /* APP --- */
 
 .app {
@@ -54,31 +58,29 @@ button:hover {
 
 .header {
    position: relative;
+   padding: 10px;
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    background: var(--dark);
 }
 
 .logo-text {
-   font-size: var(--h1);
+   font-size: var(--h3);
 	color: var(--light);
 }
 
-.profile-icon-btn {
-   position: absolute;
-   top: 50%;
-   right: 40px;
-   transform: translate(50%, -50%);
-   height: 50px;
-   width: 50px;
+.nav {
    display: flex;
-   justify-content: center;
-   align-items: center;
+   gap: 15px;
+   font-size: var(--h3);
+	color: var(--light);
+}
+
+.download-cv-btn {
    background: var(--light);
-   font-size: var(--h2);
+   font-size: var(--h3);
 	color: var(--dark);
-   border-radius: 50%;
 }
 
 .main {
