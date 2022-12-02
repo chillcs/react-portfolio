@@ -18,10 +18,10 @@ const App = () => {
 		height: height,
 	};
 	const headerHeight = {
-		height: 80,
+		height: 50,
 	};
 	const footerHeight = {
-		height: 50,
+		height: 300,
 	};
 	const mainHeight = {
 		height: maxHeight.height - headerHeight.height - footerHeight.height,
