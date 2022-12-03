@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Dashboard = () => {
+const Project2 = () => {
 	return (
 		<>
 			<div className="page-title">
-				<h1>Dashboard</h1>
+				<h1>Project 2</h1>
 			</div>
 		</>
 	);
 };
 
-export default Dashboard;
+export default Project2;

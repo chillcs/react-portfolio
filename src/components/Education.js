@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Settings = () => {
+const Education = () => {
 	return (
 		<>
 			<div className="page-title">
-				<h1>Settings</h1>
+				<h1>Education</h1>
 			</div>
 		</>
 	);
 };
 
-export default Settings;
+export default Education;
