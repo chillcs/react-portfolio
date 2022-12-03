@@ -45,17 +45,17 @@ const App = () => {
 						<div className="logo-text" id={0} onClick={openTab}>
 							<h3>Curtis Hill</h3>
 						</div>
-						<ul className="nav">
-							<li id={0} onClick={openTab}>
+						<div className="nav">
+							<div className="nav--item" id={0} onClick={openTab}>
 								About
-							</li>
-							<li id={1} onClick={openTab}>
+							</div>
+							<div className="nav--item" id={1} onClick={openTab}>
 								Education
-							</li>
-							<li id={2} onClick={openTab}>
+							</div>
+							<div className="nav--item" id={2} onClick={openTab}>
 								Contact
-							</li>
-						</ul>
+							</div>
+						</div>
 						<button className="download-cv-btn">
 							<h3>Download CV</h3>
 						</button>
